@@ -27,6 +27,7 @@ aside {
 #activities {
   flex: 1;
   background-color: rgb(183, 238, 146);
+  margin-bottom: 30px;
 }
 
 #itinerary {
@@ -54,6 +55,20 @@ aside {
   font-size: 20px;
   background-color: red;
 }
+
+
+
+#itinerary li {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.inline-button {
+  display: flex;
+}
+
+
+
 
 
 
