@@ -1,12 +1,54 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>TripPlanner1</title>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
-    <link href="./style.css" rel="stylesheet" />
-    <script src="./bundle.js" defer></script>
-  </head>
-  <body>
+
+<head>
+  <title>TripPlanner1</title>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
+  <link href="./style.css" rel="stylesheet" />
+  <script src="./bundle.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h2>TripPlanner1</h2>
+  </header>
+  <div id="main">
     <div id="map"></div>
-  </body>
+    <aside>
+      <div id="activities" class="panel">
+        <h2>Hotels</h2>
+        <select>
+          <option disabled selected hidden>Please Choose</option>
+          <option>This Hotel</option>
+          <option>This Other Hotel</option>
+          <option>This Shitty Hotel</option>
+          <option>Hotel Q</option>
+        </select>
+        <button>X</button>
+        <h2>Restaurants</h2>
+        <select>
+          <option disabled selected hidden>Please Choose</option>
+          <option>Restaurant A</option>
+          <option>Restaurant B</option>
+          <option>Restaurant C</option>
+          <option>Restaurant D</option>
+        </select>
+        <button>X</button>
+        <h2>Activities</h2>
+        <select>
+          <option disabled selected hidden>Please Choose</option>
+          <option>Activity A</option>
+          <option>Activity B</option>
+          <option>Activity C</option>
+          <option>Activity D</option>
+        </select>
+        <button>X</button>
+      </div>
+      <div id="itinerary" class="panel">
+        <h1>Itinerary</h1>
+      </div>
+    </aside>
+  </div>
+</body>
+
 </html>

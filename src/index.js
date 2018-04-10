@@ -11,5 +11,5 @@ const map = new mapboxgl.Map({
   style: 'mapbox://styles/mapbox/streets-v10' // mapbox has lots of different map styles available.
 });
 
-const markerDomEl = buildMarker('hotel', [-84.009151, 37.705086])
+const markerDomEl = buildMarker('hotel', [-74.009151, 40.705086])
 markerDomEl.addTo(map)
